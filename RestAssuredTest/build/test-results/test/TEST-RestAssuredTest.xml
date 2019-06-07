@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RestAssuredTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-07T11:21:29" hostname="DESKTOP" time="5.663">
+  <properties/>
+  <testcase name="thirdTest()" classname="RestAssuredTest" time="2.043"/>
+  <testcase name="firstTest()" classname="RestAssuredTest" time="1.472"/>
+  <testcase name="secondTest()" classname="RestAssuredTest" time="2.147"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.github.com/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "TestRest",
+    "description": "test example"
+}
+HTTP/1.1 201 Created
+Date: Fri, 07 Jun 2019 11:21:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 5211
+Server: GitHub.com
+Status: 201 Created
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4969
+X-RateLimit-Reset: 1559909826
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "2c213212ac637a5497b4c45f3ba8cb41"
+Location: https://api.github.com/repos/FocusStartTest/TestRest
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99E8:3D624:31651DF:3E090B7:5CFA48B9
+
+{
+    "id": 190731961,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxOTA3MzE5NjE=",
+    "name": "TestRest",
+    "full_name": "FocusStartTest/TestRest",
+    "private": false,
+    "owner": {
+        "login": "FocusStartTest",
+        "id": 51478688,
+        "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/FocusStartTest",
+        "html_url": "https://github.com/FocusStartTest",
+        "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+        "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+        "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+        "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+        "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+        "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/FocusStartTest/TestRest",
+    "description": "test example",
+    "fork": false,
+    "url": "https://api.github.com/repos/FocusStartTest/TestRest",
+    "forks_url": "https://api.github.com/repos/FocusStartTest/TestRest/forks",
+    "keys_url": "https://api.github.com/repos/FocusStartTest/TestRest/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/FocusStartTest/TestRest/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/FocusStartTest/TestRest/teams",
+    "hooks_url": "https://api.github.com/repos/FocusStartTest/TestRest/hooks",
+    "issue_events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/events",
+    "assignees_url": "https://api.github.com/repos/FocusStartTest/TestRest/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/FocusStartTest/TestRest/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/FocusStartTest/TestRest/tags",
+    "blobs_url": "https://api.github.com/repos/FocusStartTest/TestRest/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/FocusStartTest/TestRest/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/FocusStartTest/TestRest/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/FocusStartTest/TestRest/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/FocusStartTest/TestRest/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/FocusStartTest/TestRest/languages",
+    "stargazers_url": "https://api.github.com/repos/FocusStartTest/TestRest/stargazers",
+    "contributors_url": "https://api.github.com/repos/FocusStartTest/TestRest/contributors",
+    "subscribers_url": "https://api.github.com/repos/FocusStartTest/TestRest/subscribers",
+    "subscription_url": "https://api.github.com/repos/FocusStartTest/TestRest/subscription",
+    "commits_url": "https://api.github.com/repos/FocusStartTest/TestRest/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/FocusStartTest/TestRest/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/FocusStartTest/TestRest/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/FocusStartTest/TestRest/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/FocusStartTest/TestRest/merges",
+    "archive_url": "https://api.github.com/repos/FocusStartTest/TestRest/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/FocusStartTest/TestRest/downloads",
+    "issues_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/FocusStartTest/TestRest/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/FocusStartTest/TestRest/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/FocusStartTest/TestRest/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/labels{/name}",
+    "releases_url": "https://api.github.com/repos/FocusStartTest/TestRest/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/FocusStartTest/TestRest/deployments",
+    "created_at": "2019-06-07T11:21:30Z",
+    "updated_at": "2019-06-07T11:21:30Z",
+    "pushed_at": "2019-06-07T11:21:30Z",
+    "git_url": "git://github.com/FocusStartTest/TestRest.git",
+    "ssh_url": "git@github.com:FocusStartTest/TestRest.git",
+    "clone_url": "https://github.com/FocusStartTest/TestRest.git",
+    "svn_url": "https://github.com/FocusStartTest/TestRest",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "master",
+    "permissions": {
+        "admin": true,
+        "push": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "network_count": 0,
+    "subscribers_count": 0
+}
+Request method:	POST
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest/issues
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "issue_3",
+    "body": "cant touch this",
+    "milestone": null
+}
+HTTP/1.1 201 Created
+Date: Fri, 07 Jun 2019 11:21:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1803
+Server: GitHub.com
+Status: 201 Created
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4968
+X-RateLimit-Reset: 1559909826
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "4dbffbd546d6a401bda47156549ef33c"
+Location: https://api.github.com/repos/FocusStartTest/TestRest/issues/1
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99E9:3D627:402B2F1:50610B6:5CFA48BA
+
+{
+    "url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1",
+    "repository_url": "https://api.github.com/repos/FocusStartTest/TestRest",
+    "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/labels{/name}",
+    "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/comments",
+    "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/events",
+    "html_url": "https://github.com/FocusStartTest/TestRest/issues/1",
+    "id": 453463994,
+    "node_id": "MDU6SXNzdWU0NTM0NjM5OTQ=",
+    "number": 1,
+    "title": "issue_3",
+    "user": {
+        "login": "FocusStartTest",
+        "id": 51478688,
+        "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/FocusStartTest",
+        "html_url": "https://github.com/FocusStartTest",
+        "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+        "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+        "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+        "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+        "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+        "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "labels": [
+        
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+        
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-06-07T11:21:31Z",
+    "updated_at": "2019-06-07T11:21:31Z",
+    "closed_at": null,
+    "author_association": "OWNER",
+    "body": "cant touch this",
+    "closed_by": null
+}
+Request method:	PUT
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest/issues/1/lock
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "locked": true,
+    "active_lock_reason": "can't find the detonator "
+}
+HTTP/1.1 204 No Content
+Date: Fri, 07 Jun 2019 11:21:32 GMT
+Content-Type: application/octet-stream
+Server: GitHub.com
+Status: 204 No Content
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4967
+X-RateLimit-Reset: 1559909826
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99EA:8957:A5A271:CF1F3A:5CFA48BB
+Request method:	GET
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest/issues/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 07 Jun 2019 11:21:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Server: GitHub.com
+Status: 200 OK
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4966
+X-RateLimit-Reset: 1559909826
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"6484da14d2328970547240b3a5cd35fa"
+Last-Modified: Fri, 07 Jun 2019 11:21:32 GMT
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99EB:17575:3E2746A:4E138AF:5CFA48BC
+
+{
+    "url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1",
+    "repository_url": "https://api.github.com/repos/FocusStartTest/TestRest",
+    "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/labels{/name}",
+    "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/comments",
+    "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/events",
+    "html_url": "https://github.com/FocusStartTest/TestRest/issues/1",
+    "id": 453463994,
+    "node_id": "MDU6SXNzdWU0NTM0NjM5OTQ=",
+    "number": 1,
+    "title": "issue_3",
+    "user": {
+        "login": "FocusStartTest",
+        "id": 51478688,
+        "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/FocusStartTest",
+        "html_url": "https://github.com/FocusStartTest",
+        "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+        "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+        "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+        "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+        "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+        "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "labels": [
+        
+    ],
+    "state": "open",
+    "locked": true,
+    "assignee": null,
+    "assignees": [
+        
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-06-07T11:21:31Z",
+    "updated_at": "2019-06-07T11:21:32Z",
+    "closed_at": null,
+    "author_association": "OWNER",
+    "body": "cant touch this",
+    "closed_by": null
+}
+Request method:	POST
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest/issues
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "issue_1",
+    "body": "some body",
+    "assignees": [
+        "FocusStartTest"
+    ],
+    "milestone": null,
+    "labels": [
+        "what?"
+    ]
+}
+HTTP/1.1 201 Created
+Date: Fri, 07 Jun 2019 11:21:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 3929
+Server: GitHub.com
+Status: 201 Created
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4965
+X-RateLimit-Reset: 1559909826
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "421aa6741b28c771a52c62950c514498"
+Location: https://api.github.com/repos/FocusStartTest/TestRest/issues/2
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99EC:20096:1C6611A:23AC5D0:5CFA48BD
+
+{
+    "url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/2",
+    "repository_url": "https://api.github.com/repos/FocusStartTest/TestRest",
+    "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/2/labels{/name}",
+    "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/2/comments",
+    "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/2/events",
+    "html_url": "https://github.com/FocusStartTest/TestRest/issues/2",
+    "id": 453464017,
+    "node_id": "MDU6SXNzdWU0NTM0NjQwMTc=",
+    "number": 2,
+    "title": "issue_1",
+    "user": {
+        "login": "FocusStartTest",
+        "id": 51478688,
+        "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/FocusStartTest",
+        "html_url": "https://github.com/FocusStartTest",
+        "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+        "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+        "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+        "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+        "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+        "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "labels": [
+        {
+            "id": 1395316013,
+            "node_id": "MDU6TGFiZWwxMzk1MzE2MDEz",
+            "url": "https://api.github.com/repos/FocusStartTest/TestRest/labels/what?",
+            "name": "what?",
+            "color": "ededed",
+            "default": false
+        }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": {
+        "login": "FocusStartTest",
+        "id": 51478688,
+        "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/FocusStartTest",
+        "html_url": "https://github.com/FocusStartTest",
+        "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+        "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+        "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+        "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+        "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+        "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "assignees": [
+        {
+            "login": "FocusStartTest",
+            "id": 51478688,
+            "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/FocusStartTest",
+            "html_url": "https://github.com/FocusStartTest",
+            "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+            "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+            "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+            "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+            "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+            "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+            "type": "User",
+            "site_admin": false
+        }
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-06-07T11:21:33Z",
+    "updated_at": "2019-06-07T11:21:33Z",
+    "closed_at": null,
+    "author_association": "OWNER",
+    "body": "some body",
+    "closed_by": null
+}
+Request method:	GET
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest/issues
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 07 Jun 2019 11:21:34 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Server: GitHub.com
+Status: 200 OK
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4964
+X-RateLimit-Reset: 1559909826
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"5f7f1a81f34d6e319b1a1bb3c7b3c22c"
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99ED:2009B:4404B17:5599AC8:5CFA48BE
+
+[
+    {
+        "url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/2",
+        "repository_url": "https://api.github.com/repos/FocusStartTest/TestRest",
+        "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/2/labels{/name}",
+        "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/2/comments",
+        "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/2/events",
+        "html_url": "https://github.com/FocusStartTest/TestRest/issues/2",
+        "id": 453464017,
+        "node_id": "MDU6SXNzdWU0NTM0NjQwMTc=",
+        "number": 2,
+        "title": "issue_1",
+        "user": {
+            "login": "FocusStartTest",
+            "id": 51478688,
+            "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/FocusStartTest",
+            "html_url": "https://github.com/FocusStartTest",
+            "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+            "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+            "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+            "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+            "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+            "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 1395316013,
+                "node_id": "MDU6TGFiZWwxMzk1MzE2MDEz",
+                "url": "https://api.github.com/repos/FocusStartTest/TestRest/labels/what?",
+                "name": "what?",
+                "color": "ededed",
+                "default": false
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": {
+            "login": "FocusStartTest",
+            "id": 51478688,
+            "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/FocusStartTest",
+            "html_url": "https://github.com/FocusStartTest",
+            "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+            "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+            "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+            "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+            "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+            "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "assignees": [
+            {
+                "login": "FocusStartTest",
+                "id": 51478688,
+                "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+                "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/FocusStartTest",
+                "html_url": "https://github.com/FocusStartTest",
+                "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+                "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+                "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+                "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+                "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+                "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+                "type": "User",
+                "site_admin": false
+            }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2019-06-07T11:21:33Z",
+        "updated_at": "2019-06-07T11:21:33Z",
+        "closed_at": null,
+        "author_association": "OWNER",
+        "body": "some body"
+    },
+    {
+        "url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1",
+        "repository_url": "https://api.github.com/repos/FocusStartTest/TestRest",
+        "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/labels{/name}",
+        "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/comments",
+        "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/1/events",
+        "html_url": "https://github.com/FocusStartTest/TestRest/issues/1",
+        "id": 453463994,
+        "node_id": "MDU6SXNzdWU0NTM0NjM5OTQ=",
+        "number": 1,
+        "title": "issue_3",
+        "user": {
+            "login": "FocusStartTest",
+            "id": 51478688,
+            "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/FocusStartTest",
+            "html_url": "https://github.com/FocusStartTest",
+            "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+            "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+            "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+            "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+            "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+            "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            
+        ],
+        "state": "open",
+        "locked": true,
+        "assignee": null,
+        "assignees": [
+            
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2019-06-07T11:21:31Z",
+        "updated_at": "2019-06-07T11:21:32Z",
+        "closed_at": null,
+        "author_association": "OWNER",
+        "body": "cant touch this"
+    }
+]
+List of issues
+[453464017, 453463994]
+Request method:	POST
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest/issues
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "issue_2",
+    "body": "another one",
+    "milestone": null
+}
+HTTP/1.1 201 Created
+Date: Fri, 07 Jun 2019 11:21:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1799
+Server: GitHub.com
+Status: 201 Created
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4963
+X-RateLimit-Reset: 1559909826
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "8cf4a846cfbbab46e03492527d6f1a67"
+Location: https://api.github.com/repos/FocusStartTest/TestRest/issues/3
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99EE:3D627:402B6FF:50615E2:5CFA48BE
+
+{
+    "url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3",
+    "repository_url": "https://api.github.com/repos/FocusStartTest/TestRest",
+    "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/labels{/name}",
+    "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/comments",
+    "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/events",
+    "html_url": "https://github.com/FocusStartTest/TestRest/issues/3",
+    "id": 453464027,
+    "node_id": "MDU6SXNzdWU0NTM0NjQwMjc=",
+    "number": 3,
+    "title": "issue_2",
+    "user": {
+        "login": "FocusStartTest",
+        "id": 51478688,
+        "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/FocusStartTest",
+        "html_url": "https://github.com/FocusStartTest",
+        "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+        "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+        "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+        "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+        "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+        "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "labels": [
+        
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+        
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-06-07T11:21:34Z",
+    "updated_at": "2019-06-07T11:21:34Z",
+    "closed_at": null,
+    "author_association": "OWNER",
+    "body": "another one",
+    "closed_by": null
+}
+Request method:	PATCH
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest/issues/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "issue_2",
+    "body": "new body",
+    "milestone": null
+}
+HTTP/1.1 200 OK
+Date: Fri, 07 Jun 2019 11:21:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Server: GitHub.com
+Status: 200 OK
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4962
+X-RateLimit-Reset: 1559909826
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"f96048866e8d078a4f31be703a8469b7"
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99EF:895A:3E51671:4E3286C:5CFA48BF
+
+{
+    "url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3",
+    "repository_url": "https://api.github.com/repos/FocusStartTest/TestRest",
+    "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/labels{/name}",
+    "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/comments",
+    "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/events",
+    "html_url": "https://github.com/FocusStartTest/TestRest/issues/3",
+    "id": 453464027,
+    "node_id": "MDU6SXNzdWU0NTM0NjQwMjc=",
+    "number": 3,
+    "title": "issue_2",
+    "user": {
+        "login": "FocusStartTest",
+        "id": 51478688,
+        "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/FocusStartTest",
+        "html_url": "https://github.com/FocusStartTest",
+        "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+        "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+        "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+        "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+        "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+        "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "labels": [
+        
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+        
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-06-07T11:21:34Z",
+    "updated_at": "2019-06-07T11:21:35Z",
+    "closed_at": null,
+    "author_association": "OWNER",
+    "body": "new body",
+    "closed_by": null
+}
+Request method:	GET
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest/issues/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 07 Jun 2019 11:21:36 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Server: GitHub.com
+Status: 200 OK
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4961
+X-RateLimit-Reset: 1559909826
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"f96048866e8d078a4f31be703a8469b7"
+Last-Modified: Fri, 07 Jun 2019 11:21:35 GMT
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99F0:20098:333DBE7:405BA3A:5CFA48C0
+
+{
+    "url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3",
+    "repository_url": "https://api.github.com/repos/FocusStartTest/TestRest",
+    "labels_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/labels{/name}",
+    "comments_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/comments",
+    "events_url": "https://api.github.com/repos/FocusStartTest/TestRest/issues/3/events",
+    "html_url": "https://github.com/FocusStartTest/TestRest/issues/3",
+    "id": 453464027,
+    "node_id": "MDU6SXNzdWU0NTM0NjQwMjc=",
+    "number": 3,
+    "title": "issue_2",
+    "user": {
+        "login": "FocusStartTest",
+        "id": 51478688,
+        "node_id": "MDQ6VXNlcjUxNDc4Njg4",
+        "avatar_url": "https://avatars0.githubusercontent.com/u/51478688?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/FocusStartTest",
+        "html_url": "https://github.com/FocusStartTest",
+        "followers_url": "https://api.github.com/users/FocusStartTest/followers",
+        "following_url": "https://api.github.com/users/FocusStartTest/following{/other_user}",
+        "gists_url": "https://api.github.com/users/FocusStartTest/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/FocusStartTest/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/FocusStartTest/subscriptions",
+        "organizations_url": "https://api.github.com/users/FocusStartTest/orgs",
+        "repos_url": "https://api.github.com/users/FocusStartTest/repos",
+        "events_url": "https://api.github.com/users/FocusStartTest/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/FocusStartTest/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "labels": [
+        
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [
+        
+    ],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2019-06-07T11:21:34Z",
+    "updated_at": "2019-06-07T11:21:35Z",
+    "closed_at": null,
+    "author_association": "OWNER",
+    "body": "new body",
+    "closed_by": null
+}
+Request method:	DELETE
+Request URI:	https://api.github.com/repos/FocusStartTest/TestRest
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic Rm9jdXNTdGFydFRlc3Q6UWF6MTIzeGN2Ym5tNzg5
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 07 Jun 2019 11:21:36 GMT
+Content-Type: application/octet-stream
+Server: GitHub.com
+Status: 204 No Content
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4960
+X-RateLimit-Reset: 1559909826
+X-GitHub-Media-Type: github.v3; format=json
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding
+X-GitHub-Request-Id: 99F1:8959:3148A86:3DDEF32:5CFA48C0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

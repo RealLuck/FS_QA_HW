@@ -1,0 +1,21 @@
+{
+
+  "title": "issue_1",
+
+  "body": "some body",
+
+  "assignees": [
+
+    "FocusStartTest"
+
+  ],
+
+  "milestone": null,
+
+  "labels": [
+
+    "what?"
+
+  ]
+
+}
